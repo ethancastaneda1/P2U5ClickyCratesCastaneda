@@ -55,7 +55,7 @@ public class Targets : MonoBehaviour
         Destroy(gameObject);
         if (!gameObject.CompareTag("Bad"))
         {
-            gameManager.GameOver();
+            gameManager.Updatelives(-1);
         }
     }
 }
